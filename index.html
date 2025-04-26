@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" type="image/png" href="./img/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Quicksand&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Form</title>
+</head>
+
+<body>
+    <main class="main-container">
+
+        <section class="feedb-container">
+            <div class="main-tittle">
+                <h1><span class="emoji">📢</span> Your feedback helps us improve!</h1>
+            </div>
+
+            <div class="feedback">
+
+                <p>Hello <span class="emoji">👋</span>,</p>
+
+                <p>
+                    We're working on a project and would love to hear your feedback. It will only take
+                    <strong>2 minutes</strong> to fill out this short form, and your message will be key
+                    to helping us create something amazing.
+                </p>
+
+                <div class="highlight">
+                    <p><strong>🔹 Why participate?</strong></p>
+                    <ul>
+                        <li>Your data is 100% anonymous and confidential.</li>
+                        <li>You’ll help us better understand the needs of people like you.</li>
+                        <li>We’ll thank you with a surprise at the end! <span class="emoji">🎁</span></li>
+                    </ul>
+                </div>
+
+                <p>Thank you so much for participating! If you have any questions, feel free to reply to this message.
+                </p>
+
+                <p class="footer"><em>Jonathan.</em></p>
+            </div>
+        </section>
+
+        <fieldset>
+            <legend>Information</legend>
+            <form action="#">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" minlength="4" placeholder="Type your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="johndoe@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="+1 123456789">
+                </div>
+
+                <div class="form-group">
+                    <label for="aboutyou">Add a message here:</label>
+                    <textarea name="aboutyou" id="aboutyou" placeholder="Type here:"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="check" name="check" checked required>
+                        I Agree
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </fieldset>
+    </main>
+</body>
+
+</html> 
+
