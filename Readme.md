@@ -13,7 +13,6 @@ It’s a glowing feedback form with animated effects and a custom design.
 - Neon-style border effects
 - Simple feedback form:
   - Name
-  - Age
   - Email
   - Phone
   - Message
